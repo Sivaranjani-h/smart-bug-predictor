@@ -1,0 +1,64 @@
+# ── Virtual Environment ──
+venv/
+env/
+.venv/
+
+# ── Python Cache ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ── ML Models (Never push - large & private) ──
+models/*.pkl
+models/*.h5
+models/*.pt
+
+# ── Data Files (Never push - private data) ──
+data/raw/
+data/processed/
+*.csv
+
+# ── MLflow (Never push - large files) ──
+mlflow.db
+mlruns/
+mlflow-artifacts/
+
+# ── Evidently Reports ──
+reports/
+
+# ── DVC Cache (Never push) ──
+.dvc/cache
+.dvc/tmp
+.dvc/plots
+
+# ── Environment Variables (NEVER push secrets) ──
+.env
+.env.local
+.env.production
+*.env
+secrets.txt
+config.ini
+
+# ── Docker ──
+.dockerignore
+
+# ── OS Files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ──
+.vscode/
+*.code-workspace
+
+# ── Logs ──
+*.log
+logs/
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*.ipynb
+# Other projects - do not push
+SMP/

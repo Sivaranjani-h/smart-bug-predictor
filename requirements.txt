@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+xgboost
+mlflow
+fastapi
+uvicorn
+streamlit
+evidently==0.4.16
+prefect
+dvc
+plotly
+scipy
