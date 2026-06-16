@@ -1,3 +1,11 @@
+---
+title: Smart Bug Priority Predictor
+emoji: 🎯
+colorFrom: indigo
+colorTo: purple
+sdk: docker
+pinned: false
+---
 # 🎯 BugRadar — Smart Bug Priority Predictor
 
 An MLOps-powered web application that automatically 
